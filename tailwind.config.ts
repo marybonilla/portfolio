@@ -29,8 +29,14 @@ const config = {
           foreground: "hsl(var(--primary-foreground))",
         },
         secondary: {
-          DEFAULT: "hsl(var(--secondary))",
+          DEFAULT: "#8576FF",
           foreground: "hsl(var(--secondary-foreground))",
+        },
+        textColor: {
+          // Establece el color de texto por defecto
+          DEFAULT: "#ffffff", // Blanco por defecto
+          secondary: "hsl(var(--secondary))", // Color secundario
+          // Puedes agregar más colores aquí según sea necesario
         },
         destructive: {
           DEFAULT: "hsl(var(--destructive))",

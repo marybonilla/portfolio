@@ -16,7 +16,7 @@ const Introduction = () => {
                 <Image className="rounded-full " src="/profilepic.jpg" priority width="100" height="100" alt="profile pic"/>
                 <div className="flex flex-col justify-center max-w-md">
                     <h1 className="mb-5 text-2xl leading-tight 
-                    text-center md:text-left md:text-4xl md:mb-10">
+                    text-center text-primary-foreground md:text-left md:text-4xl md:mb-10">
                         Hola, Soy 
                         <TypeAnimation
                         sequence={[
@@ -33,7 +33,7 @@ const Introduction = () => {
                         />
                     </h1>
 
-                    <p className="mx-auto mb-2 text-xl md:mx-0 md:mb-8">
+                    <p className="text-primary-foreground mx-auto mb-2 text-xl md:mx-0 md:mb-8">
                     Una profesional con experiencia en marketing digital, 
                     diseño gráfico y <span className="text-secondary"> programación. </span> 
                     Combino creatividad y habilidades técnicas para 
