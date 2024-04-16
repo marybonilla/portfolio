@@ -20,7 +20,7 @@ const Header = () =>{
                         </h1>  
                     
                     </Link> 
-                    <div className="flex items-center justify-center gap-6">
+                    <div className="text-primary-foreground flex items-center justify-center gap-6">
                         {socialNetworks.map(({logo, src, id}) =>
                         <Link key={id}
                         href={src}
@@ -43,3 +43,5 @@ const Header = () =>{
 }
 
 export default Header
+
+

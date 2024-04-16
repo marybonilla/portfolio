@@ -5,6 +5,7 @@ import { TypeAnimation } from "react-type-animation";
 //import Link from 'next/link';
 
 import Buttom from "@/components/buttom"
+import Skills from "@/components/skills"
 
 
 
@@ -43,7 +44,9 @@ const Introduction = () => {
                     compartir cómo mi enfoque multidisciplinario puede beneficiar tu proyecto.
 
                      </p>
+                     
                      <div>
+                        <Skills />
                         <Buttom />
                      </div>
 

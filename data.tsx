@@ -16,6 +16,86 @@ export const socialNetworks = [
     
 ];
 
+export const dataSkills = [
+    {
+        id: 1,
+        title: "JavaScript",
+    },
+    {
+        id: 2,
+        title: "Html",
+    },
+    {
+        id: 3,
+        title: "Css",
+    },
+    {
+        id: 4,
+        title: "Tailwind",
+    },
+    {
+        id: 5,
+        title: "MongoDb",
+    },
+    {
+        id: 6,
+        title: "Axios",
+    },
+    {
+        id: 7,
+        title: "React",
+    },
+    {
+        id: 8,
+        title: "NextJs",
+    },
+    {
+        id: 9,
+        title: "Express",
+    },
+    {
+        id: 10,
+        title: "Node.js",
+    },
+    {
+        id: 11,
+        title: "PHP",
+    },
+    {
+        id: 12,
+        title: "Laravel",
+    },
+    {
+        id: 13,
+        title: "TypeScript",
+    },
+    {
+        id: 14,
+        title: "Git",
+    },
+    {
+        id: 15,
+        title: "GitHub",
+    },
+    {
+        id: 16,
+        title: "WordPress",
+    },
+    {
+        id: 17,
+        title: "Adobe PhotoShop",
+    },
+    {
+        id: 18,
+        title: "Adobe Illustrator",
+    },
+    {
+        id: 19,
+        title: " Marketing Digital",
+    },
+
+]
+
 
 export const itemsNavbar = [
     {

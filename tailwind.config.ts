@@ -25,7 +25,7 @@ const config = {
         background: "hsl(var(--background))",
         foreground: "hsl(var(--foreground))",
         primary: {
-          DEFAULT: "hsl(var(--primary))",
+          DEFAULT: "#8576FF",
           foreground: "hsl(var(--primary-foreground))",
         },
         secondary: {
@@ -33,10 +33,10 @@ const config = {
           foreground: "hsl(var(--secondary-foreground))",
         },
         textColor: {
-          // Establece el color de texto por defecto
-          DEFAULT: "#ffffff", // Blanco por defecto
-          secondary: "hsl(var(--secondary))", // Color secundario
-          // Puedes agregar más colores aquí según sea necesario
+          
+          DEFAULT: "#ffffff", 
+          secondary: "hsl(var(--secondary))",
+        
         },
         destructive: {
           DEFAULT: "hsl(var(--destructive))",
@@ -77,6 +77,9 @@ const config = {
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
+      },
+      backgroundImage: {
+        'gradient-radial': 'radial-gradient(125% 125% at 50% 10%, #000 40%, #63e 100%)',
       },
     },
   },

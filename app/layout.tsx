@@ -11,19 +11,40 @@ export const metadata: Metadata = {
   description: "Web Development Full Stack",
 };
 
-export default function RootLayout({
-  children,
-}: Readonly<{
-  children: React.ReactNode;
-}>) {
+const RootLayout = ({ children }) => {
   return (
     <html lang="en">
-      <body className={urbanist.className}>
-        <Navbar/>
+      <head>
+        <style>{`
+          body {
+            ${urbanist.className}
+            margin: 0;
+            padding: 0;
+            overflow-x: hidden; /* Evitar desplazamiento horizontal */
+            position: relative;
+          }
+          .bg-gradient-radial {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1; /* Mover el fondo detrás del contenido */
+          }
+          .content-wrapper {
+            position: relative;
+            z-index: 1; /* Asegurar que el contenido esté por encima del fondo */
+          }
+        `}</style>
+      </head>
+      <body>
+        <Navbar />
         <Header />
-
-        {children}
+        <div className="content-wrapper">{children}</div>
+        <div className="bg-gradient-radial"></div>
       </body>
     </html>
   );
-}
+};
+
+export default RootLayout;
