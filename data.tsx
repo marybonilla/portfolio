@@ -51,46 +51,54 @@ export const dataSkills = [
     },
     {
         id: 9,
-        title: "Express",
+        title: "Java",
     },
     {
         id: 10,
-        title: "Node.js",
+        title: "Mysql",
+    },
+    {
+        id: 10,
+        title: "Express",
     },
     {
         id: 11,
-        title: "PHP",
+        title: "Node.js",
     },
     {
         id: 12,
-        title: "Laravel",
+        title: "PHP",
     },
     {
         id: 13,
-        title: "TypeScript",
+        title: "Laravel",
     },
     {
         id: 14,
-        title: "Git",
+        title: "TypeScript",
     },
     {
         id: 15,
-        title: "GitHub",
+        title: "Git",
     },
     {
         id: 16,
-        title: "WordPress",
+        title: "GitHub",
     },
     {
         id: 17,
-        title: "Adobe PhotoShop",
+        title: "WordPress",
     },
     {
         id: 18,
-        title: "Adobe Illustrator",
+        title: "Adobe PhotoShop",
     },
     {
         id: 19,
+        title: "Adobe Illustrator",
+    },
+    {
+        id: 20,
         title: " Marketing Digital",
     },
 
